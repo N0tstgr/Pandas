@@ -1,4 +1,11 @@
-#sample data frame using dictionary
+"""
+
+1- how bit is your dataset
+2- what are the names of the column
+
+shape and column
+"""
+
 import pandas as pd
 
 info = {
@@ -11,6 +18,5 @@ info = {
 bb = pd.DataFrame(info)
 print("Demo DataFrame")
 print(bb)
-print("descriptive Statistics")
-print(bb.describe())
-
+print(f'Shape: {bb.shape}')
+print(f'Column Names: {bb.columns}')
