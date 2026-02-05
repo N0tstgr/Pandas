@@ -20,3 +20,9 @@ print("Demo DataFrame")
 print(bb)
 print(f'Shape: {bb.shape}')
 print(f'Column Names: {bb.columns}')
+
+"""
+(100,30)
+(30000,5000)
+
+"""
