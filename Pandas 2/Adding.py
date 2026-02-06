@@ -13,3 +13,9 @@ gg = pd.DataFrame(info)
 print(gg)
 gg["IncrementInRevenue"] = gg['revenueInBillion']*0.3
 print(gg)
+
+
+#using the insert method
+#gg.insert(0, 'Column_Name', some_datat)
+gg.insert(0, "valuationINtrillion", [11,3,4,6,3,7,8,9])
+print(gg)
