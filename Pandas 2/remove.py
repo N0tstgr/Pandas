@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-info1 = {
+info2 = {
     "city": ['New York', 'Hong-Kong', 'shenzeng', 'California', 'Las-vegas','Mumbai', 'Washington', 'manhattan'],
     "companiestenure": [10,45,90,34,32, 55,39,53],
     "revenueInBillion": [3, 500,2000,450,323,49,200,400],
@@ -9,8 +9,9 @@ info1 = {
 
 }
 
-gg = pd.DataFrame(info1)
+gg = pd.DataFrame(info2)
 print(gg)
-#increasing the salary by 1.2%
-gg["Performance"] = gg["Performance"] * 1.2
+
+#gg.drop(columns = ["ColumnName"], inplaceTrue)
+gg.drop(columns = ["Performance"], inplace=True)
 print(gg)
